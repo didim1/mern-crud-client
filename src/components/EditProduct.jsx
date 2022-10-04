@@ -37,6 +37,7 @@ const EditProduct = () => {
               Product Name
             </label>
             <input
+              required
               type="text"
               name="productName"
               id="name"
@@ -51,6 +52,7 @@ const EditProduct = () => {
               Product Price
             </label>
             <input
+              required
               type="number"
               name="productPrice"
               id="price"
